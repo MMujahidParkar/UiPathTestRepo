@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: windows-latest
+pool: MyPool
+  
 
 steps:
 - task: UiPathPack@2
